@@ -59,6 +59,7 @@ check.addEventListener("click", () => {
     }
 
     else {
+        
         if (lives > 1) {
             --lives;
             updateHearts(); // Canları güncelle
